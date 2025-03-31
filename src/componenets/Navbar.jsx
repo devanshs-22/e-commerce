@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Badge } from '@material-ui/core'
-import { ShoppingCartOutlined } from '@material-ui/icons'
-import { Search } from '@material-ui/icons'
+import { Badge } from '@mui/material'; 
+import { ShoppingCartOutlined, Search } from '@mui/icons-material';
+
 import { mobile } from "../pages/responsive";
 
 const Container = styled.div`
